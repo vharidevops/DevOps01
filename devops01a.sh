@@ -25,3 +25,9 @@ echo "***************In Readable format*****************"
 echo
 free -m
 echo
+
+# D. your mac address and ip address
+echo " Mac Address:"
+ifconfig | grep "HWaddr"
+echo " IP Address:"
+ifconfig | grep "inet addr"
